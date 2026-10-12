@@ -43,13 +43,13 @@ The full build is about 700 MB with external modules; the broker and library alo
 
 ```bash
 cd nanomq/build/nanomq
-./nanomq start -d          # -d runs it in the background
+nohup ./nanomq start > nanomq.log 2>&1 &
 ```
 
-It listens on port 1883. A "config file not found" error at startup is harmless; the defaults are used. To use a config file:
+This runs it in the background and writes its output to `nanomq.log`. It listens on port 1883. A "config file not found" error in the log is harmless; the defaults are used. To use a config file:
 
 ```bash
-./nanomq start -d --conf ../../etc/nanomq.conf
+nohup ./nanomq start --conf ../../etc/nanomq.conf > nanomq.log 2>&1 &
 ```
 
 Useful commands:
@@ -57,7 +57,8 @@ Useful commands:
 ```bash
 pgrep -a nanomq            # is it running?
 ss -ltn | grep 1883        # is it listening?
-./nanomq stop              # stop it
+tail -f nanomq.log         # follow its output
+pkill nanomq               # stop it
 ```
 
 On lxplus, each login may land on a different node. Note the `hostname` where the broker runs.
