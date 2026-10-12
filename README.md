@@ -2,8 +2,10 @@
 
 Test setup for collecting BCP log messages over MQTT, storing them in Oracle, and displaying them in a web dashboard.
 
+The base code is taken from the `cleanup` branch of [tanderso/dash_dqm](https://gitlab.cern.ch/tanderso/dash_dqm/-/tree/cleanup?ref_type=heads) on CERN GitLab.
+
 ```
-publishers ──MQTT──▶ NanoMQ broker ──▶ mqttClientOracle.py ──▶ Oracle (INT2R) ──▶ dash_display.py
+publishers --MQTT--> NanoMQ broker --> mqttClientOracle.py --> Oracle (INT2R) --> dash_display.py
 ```
 
 | Component | Role |
