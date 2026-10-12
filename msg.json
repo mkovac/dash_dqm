@@ -1,0 +1,232 @@
+[{
+    "location": "p5",
+    "msg_id": "BCP3",
+    "results": [
+	{
+	    "func_name": "configuremlpgbt",
+	    "result": "",
+	    "timestamp": 1776952588
+	}
+    ],
+    "run_number": 146,
+    "sm_id": 1,
+    "test_id": "configuremlpgbt",
+    "tgid": "test_tt",
+    "timestamp": 1776952586,
+    "towers": [
+	1
+    ]
+},
+{
+    "location": "p5",
+    "msg_id": "BCP3",
+    "results": [
+	{
+	    "func_name": "configureslpgbts",
+	    "result": {
+		"1": {
+		    "lpgbts_tclink_status": "TCLink status: 15,14,14,14,",
+		    "slave1_chip_id": "acac3c3c",
+		    "slave1_status": 19,
+		    "slave2_chip_id": "842df0a6",
+		    "slave2_status": 19,
+		    "slave3_chip_id": "6c2d30e7",
+		    "slave3_status": 19
+		}
+	    },
+	    "timestamp": 1776952591
+	}
+    ],
+    "run_number": 146,
+    "sm_id": 1,
+    "test_id": "configureslpgbts",
+    "tgid": "test_tt",
+    "timestamp": 1776952591,
+    "towers": [
+	1
+    ]
+},
+{
+    "location": "p5",
+    "msg_id": "BCP3",
+    "results": [
+	{
+	    "func_name": "resetvfes",
+	    "result": {
+		"1": "success"
+	    },
+	    "timestamp": 1776952594
+	}
+    ],
+    "run_number": 146,
+    "sm_id": 1,
+    "test_id": "resetvfes",
+    "tgid": "test_tt",
+    "timestamp": 1776952594,
+    "towers": [
+	1
+    ]
+},
+{
+    "location": "p5",
+    "msg_id": "BCP3",
+    "results": [
+	{
+	    "func_name": "getbitslips",
+	    "result": {
+		"1": [
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0,
+		    0
+		]
+	    },
+	    "timestamp": 1776952604
+	}
+    ],
+    "run_number": 146,
+    "sm_id": 1,
+    "test_id": "aligndtus",
+    "tgid": "test_tt",
+    "timestamp": 1776952598,
+    "towers": [
+	1
+    ]
+},
+{
+    "location": "p5",
+    "msg_id": "BCP3",
+    "results": [
+	{
+	    "func_name": "optimizevrefs",
+	    "result": {
+		"1": [
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9,
+		    9
+		]
+	    },
+	    "timestamp": 1776952684
+	}
+    ],
+    "run_number": 146,
+    "sm_id": 1,
+    "test_id": "optimizevrefs",
+    "tgid": "test_tt",
+    "timestamp": 1776952640,
+    "towers": [
+	1
+    ]
+},
+{
+    "location": "p5",
+    "msg_id": "BCP3",
+    "results": [
+	{
+	    "func_name": "calibrateadcs",
+	    "result": {
+		"1": "success"
+	    },
+	    "timestamp": 1776952697
+	},
+	{
+	    "func_name": "optimize_ped_rogue",
+	    "result": "DONE",
+	    "timestamp": 1776952707
+	}
+    ],
+    "run_number": 146,
+    "sm_id": 1,
+    "test_id": "optimizepedestals",
+    "tgid": "test_tt",
+    "timestamp": 1776952692,
+    "towers": [
+	1
+    ]
+},
+{
+    "location": "p5",
+    "msg_id": "BCP3",
+    "results": [
+	{
+	    "func_name": "launchprbstest",
+	    "result": {
+		"towers": {
+		    "1": {
+			"links": {
+			    "0": {
+				"endTime": 1776952748589701801,
+				"errors": 0
+			    },
+			    "1": {
+				"endTime": 1776952748790347131,
+				"errors": 0
+			    },
+			    "2": {
+				"endTime": 1776952748990983548,
+				"errors": 0
+			    },
+			    "3": {
+				"endTime": 1776952749191657039,
+				"errors": 0
+			    }
+			}
+		    }
+		}
+	    },
+	    "timestamp": 1776952749
+	}
+    ],
+    "run_number": 146,
+    "sm_id": 1,
+    "test_id": "launchprbstest",
+    "tgid": "test_tt",
+    "timestamp": 1776952735,
+    "towers": [
+	1
+    ]
+}]
+
